@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TwoWayDataBinding</string>
+    <string name="btn_two_way_binding">Two Way Binding</string>
+    <string name="btn_custom_binding">Custom Binding</string>
+    <string name="btn_rotation_binding">Support Rotation Data Save</string>
+    <string name="btn_login_form">Login Form</string>
+
+    <string name="et_one">Edit 1</string>
+    <string name="et_two">Edit 2</string>
+    <string name="et_email">E-mail Address</string>
+    <string name="et_password">Password</string>
+
+    <string name="tv_email">What is your e-mail address?</string>
+    <string name="tv_password">Do you have a password?</string>
+
+    <string name="new_customer">"No, I'm a new customer."</string>
+    <string name="i_have_a_password">"Yes, I have a password."</string>
+
+    <string name="mandatory_field">Mandatory field</string>
+    <string name="invalid_email">Please provide a valid email address</string>
+    <string name="reset">reset</string>
+    <string name="login">login</string>
+</resources>

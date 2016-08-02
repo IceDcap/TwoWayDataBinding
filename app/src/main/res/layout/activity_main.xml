@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="binding"
+            type="com.icedcap.twowaydatabinding.MainActivity.MainBinding"/>
+    </data>
+    <LinearLayout
+        android:id="@+id/activity_main"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.icedcap.twowaydatabinding.MainActivity">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{()->binding.startTarget(binding.twoWay)}"
+            android:text="@string/btn_two_way_binding"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{()->binding.startTarget(binding.custom)}"
+            android:text="@string/btn_custom_binding"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{()->binding.startTarget(binding.rotation)}"
+            android:text="@string/btn_rotation_binding"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{()->binding.startTarget(binding.login)}"
+            android:text="@string/btn_login_form"/>
+    </LinearLayout>
+
+</layout>
